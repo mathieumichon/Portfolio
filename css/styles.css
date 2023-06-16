@@ -603,6 +603,11 @@ progress {
   height: auto;
 }
 
+.frise-parcours {
+  width: 75% !important;
+  height: auto !important;
+}
+
 .img-zoomed-in {
   max-width: 35%;
   margin-bottom: 0rem !important;
@@ -614,6 +619,10 @@ progress {
 
 .no-zoom-title-space {
   margin-bottom: 2rem !important;
+}
+
+.comp-saut-de-ligne {
+  margin: 0;
 }
 
 .img-thumbnail {
@@ -696,6 +705,11 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+}
+
+.a-propros-div {
+  width: 100% !important;
+  font-size: 1.2rem;
 }
 
 .col {
